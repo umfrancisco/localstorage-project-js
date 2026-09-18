@@ -15,6 +15,21 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+form {
+  padding: 16px 0;
+}
+
+label, input, button {
+  padding: 4px 6px;
+  margin-right: 8px;
+}
+
+button {
+  border: none;
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+}
+
 .container {
   margin: 0 auto;
   max-width: 1298px;
@@ -40,6 +55,10 @@ body {
   text-decoration: none;
 }
 
+.active-link {
+  cursor: pointer;
+}
+
 .student-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -57,8 +76,4 @@ body {
 
 li {
   list-style-type: none;
-}
-
-a {
-  cursor: pointer;
 }

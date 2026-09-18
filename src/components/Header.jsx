@@ -13,7 +13,7 @@ function Header({ title, onClearData }) {
         <h1>{title}</h1>
         <div>
           <a className="link">{localStorage.length} item(s)</a>
-          <a className="link" onClick={handleClearLocalStorage}>
+          <a className="link active-link" onClick={handleClearLocalStorage}>
             Clear
           </a>
         </div>
